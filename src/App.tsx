@@ -9,6 +9,7 @@ import { CartProvider } from './hooks/useCart';
 
 const App = (): JSX.Element => {
   return (
+
     <BrowserRouter>
       <CartProvider>
         <GlobalStyles />
@@ -19,5 +20,4 @@ const App = (): JSX.Element => {
     </BrowserRouter>
   );
 };
-
 export default App;
